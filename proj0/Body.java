@@ -100,8 +100,6 @@ public class Body
 	{
 		String imageToDraw = "images/" + imgFileName; 
 		StdDraw.picture(xxPos, yyPos, imageToDraw); 
-		StdDraw.show(); 
-		// StdDraw.pause(2000); 
 	}
 
 }

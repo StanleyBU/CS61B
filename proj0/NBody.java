@@ -64,11 +64,9 @@ public class NBody
 				bodies[j].update(dt, xForces[j], yForces[j]); 
 
 			String imageToDraw = "images/starfield.jpg"; 
-			StdDraw.enableDoubleBuffering();
 			StdDraw.setScale(-radius, radius); 
 			StdDraw.clear();
 			StdDraw.picture(0, 0, imageToDraw); 
-			StdDraw.show(); 
 
 			for(int i = 0; i < numberOfPlanets; i++)
 				bodies[i].draw(); 
